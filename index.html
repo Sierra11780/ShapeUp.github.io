@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShapeUp</title>
+
+    <!-- ============ FONTAWESOME ICONS STYLE ============ -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- ============ MAIN STYLE ============ -->
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body class="scroll-smooth">
+    <!-- ============ START NAV BAR ============ -->
+    <nav
+        class="sticky top-0 w-full z-50 bg-white border border-solid border-b-gray-200 py-2 md:hover:py-4 transition-all duration-300">
+        <div class="container px-2 flex items-center">
+            <a id="nav-brand" href="#" class="brand text-2xl relative font-bold">
+                ShapeUp
+                <span class="w-2 h-2 bg-blue-600 rounded-full inline-block absolute bottom-0 -right-2"></span>
+            </a>
+
+            <div id="navContent"
+                class="content ml-auto flex items-center justify-center flex-col md:flex-row fixed md:relative bg-white md:bg-transparent top-0 right-0 bottom-0 w-1/2 md:w-auto shadow-2xl md:shadow-none translate-x-full transition-transform md:translate-x-0">
+                <i class="fa-regular fa-rectangle-xmark mb-10 block md:hidden text-blue-700 text-3xl" id="closeBtn"></i>
+
+                <div class="nav-links mr-0 md:mr-12 mb-3 md:mb-0 flex items-center flex-col md:flex-row">
+                    <a href="#"
+                        class="mr-0 md:mr-4 lg:mr-10 mb-3 md:mb-0 font-medium capitalize text-md text-gray-600 hover:text-blue-600 inline-block active">Home</a>
+                    <a href="#features"
+                        class="mr-0 md:mr-4 lg:mr-10 mb-3 md:mb-0 font-medium capitalize text-md text-gray-600 hover:text-blue-600 inline-block">Features</a>
+                    <a href="#products"
+                        class="font-medium capitalize text-md text-gray-600 hover:text-blue-600 inline-block">Products</a>
+                </div>
+
+                <a href="#products"
+                    class="bg-blue-700 py-1 px-5 text-white hover:bg-transparent hover:text-blue-700 transition-all rounded-3xl border border-solid border-sky-700 font-medium inline-block">Buy
+                    Now
+                </a>
+            </div>
+
+            <i id="navBtn" class="fa-solid fa-bars text-blue-600 text-2xl block md:hidden ml-auto cursor-pointer"></i>
+        </div>
+    </nav>
+    <!-- ============ END NAV BAR ============ -->
+
+    <!-- ============ START HOME ============ -->
+    <header class=" min-h-[70vh] flex justify-center items-center relative">
+        <div class="container flex justify-center items-center flex-col md:flex-row ">
+            <div class="img w-1/2 hidden md:flex justify-center items-center pr-10 lg:pr-0 ">
+                <img src="./assets/images/header-img-2.jpg" alt="product" title="heath products" class="w-96 rounded" />
+            </div>
+
+            <div class="info w-full md:w-1/2 text-center md:text-start">
+                <h1 class="text-second text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-semibold mb-5">
+                    Wellness Services
+                </h1>
+                <p class="w-4/6 text-gray-600 mb-8 mx-auto md:mx-0 md:w-5/6 lg:w-4/6">
+                    If You’re Ready To Finally Lose All The Weight You Want Then You’ll Love Our Produts How Can Losing
+                    Weight Really Be This Complicated?!?”
+                </p>
+                <a href="#products"
+                    class="bg-blue-700 py-2 px-8 text-white hover:bg-transparent hover:text-blue-700 transition-all rounded-3xl border border-solid border-sky-700 font-medium">Buy
+                    Now
+                </a>
+            </div>
+        </div>
+
+        <a href="#features" class="text-blue-600 absolute bottom-4 mx-auto text-3xl animate-bounce">
+            <i class="fa-regular fa-circle-down"></i>
+        </a>
+    </header>
+    <!-- ============ END HOME ============ -->
+
+    <!-- ============ START FEATURES ============ -->
+    <section id="features" class="pt-16">
+        <div class="container">
+            <div class="head text-center mb-5">
+                <h4 class="text-blue-600 text-lg font-semibold">Features</h4>
+                <h2 class="font-bold mb-4 text-3xl">Real People, Real Results</h2>
+                <p class=" w-[540px] max-w-full text-lg text-gray-500 mx-auto capitalize">
+                    If you’re ready to finally lose all the weight you want then you’ll love Our produts
+                    How Can Losing Weight Really Be This Complicated?!?”
+                </p>
+            </div>
+            <div class="body flex flex-wrap justify-center items-center">
+                <div class="left w-full md:w-1/2 lg:w-1/3 pl-5 lg:pr-5 lg:pl-0">
+                    <div class="feature flex justify-end lg:justify-end items-start mb-5 flex-row-reverse lg:flex-row">
+                        <div class="info text-left lg:text-right pl-3 lg:pl-0 lg:pr-3">
+                            <h4 class=" font-semibold mb-2 text-xl">Slim Down Quick</h4>
+                            <p>Rapid Weight Loss Formula.</p>
+                        </div>
+                        <div
+                            class="icon w-16 h-16 rounded-md border-[2px] border-soild border-[rgba(0,0,0,0.1)] flex justify-center items-center bg-white text-white">
+                            <i
+                                class="fa-solid fa-question text-3xl bg-blue-600 w-10 h-10 rounded-full flex justify-center items-center"></i>
+                        </div>
+                    </div>
+                    <div class="feature flex justify-end md:justify-end items-start mb-5 flex-row-reverse lg:flex-row">
+                        <div class="info text-left lg:text-right pl-3 lg:pl-0 lg:pr-3">
+                            <h4 class=" font-semibold mb-2 text-xl">Burn Away Fat</h4>
+                            <p>Advanced Weight Loss Supplement.</p>
+                        </div>
+                        <div
+                            class="icon w-16 h-16 rounded-md border-[2px] border-soild border-[rgba(0,0,0,0.1)] flex justify-center items-center bg-white text-white">
+                            <i
+                                class="fa-solid fa-fire text-3xl bg-blue-600 w-10 h-10 rounded-full flex justify-center items-center"></i>
+                        </div>
+                    </div>
+                    <div class="feature flex justify-end md:justify-end items-start mb-5 flex-row-reverse lg:flex-row">
+                        <div class="info text-left lg:text-right pl-3 lg:pl-0 lg:pr-3">
+                            <h4 class=" font-semibold mb-2 text-xl">Trim Tummy</h4>
+                            <p>Targeted Weight Loss for Your Midsection.</p>
+                        </div>
+                        <div
+                            class="icon w-16 h-16 rounded-md border-[2px] border-soild border-[rgba(0,0,0,0.1)] flex justify-center items-center bg-white text-white">
+                            <i
+                                class="fa-solid fa-question text-3xl bg-blue-600 w-10 h-10 rounded-full flex justify-center items-center"></i>
+                        </div>
+                    </div>
+                    <div class="feature flex justify-end md:justify-end items-start mb-5 flex-row-reverse lg:flex-row">
+                        <div class="info text-left lg:text-right pl-3 lg:pl-0 lg:pr-3">
+                            <h4 class=" font-semibold mb-2 text-xl">Powerful Weight Loss</h4>
+                            <p>Maximum Strength Fat Burner.</p>
+                        </div>
+                        <div
+                            class="icon w-16 h-16 rounded-md border-[2px] border-soild border-[rgba(0,0,0,0.1)] flex justify-center items-center bg-white text-white">
+                            <i
+                                class="fa-solid fa-battery-full text-3xl bg-blue-600 w-10 h-10 rounded-full flex justify-center items-center"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="middle w-full hidden lg:block lg:w-1/3">
+                    <img src="./assets/images/features-img.svg" class=" max-w-full" alt="">
+                </div>
+                <div class="right w-full md:w-1/2 lg:w-1/3 pl-5">
+                    <div class="feature flex justify-start md:justify-start items-start mb-5">
+                        <div
+                            class="icon w-16 h-16 rounded-md border-[2px] border-soild border-[rgba(0,0,0,0.1)] flex justify-center items-center bg-white text-white">
+                            <i
+                                class="fa-solid fa-question text-3xl bg-blue-600 w-10 h-10 rounded-full flex justify-center items-center"></i>
+                        </div>
+                        <div class="info text-left pl-3">
+                            <h4 class=" font-semibold mb-2 text-xl">Slim and Trim</h4>
+                            <p>Natural Weight Loss Solution.</p>
+                        </div>
+                    </div>
+                    <div class="feature flex justify-start md:justify-start items-start mb-5">
+                        <div
+                            class="icon w-16 h-16 rounded-md border-[2px] border-soild border-[rgba(0,0,0,0.1)] flex justify-center items-center bg-white text-white">
+                            <i
+                                class="fa-solid fa-user-plus text-3xl bg-blue-600 w-10 h-10 rounded-full flex justify-center items-center"></i>
+                        </div>
+                        <div class="info text-left pl-3">
+                            <h4 class=" font-semibold mb-2 text-xl">Effortless Weight Loss</h4>
+                            <p>Easy to Use Diet Drops.</p>
+                        </div>
+                    </div>
+                    <div class="feature flex justify-start md:justify-start items-start mb-5">
+                        <div
+                            class="icon w-16 h-16 rounded-md border-[2px] border-soild border-[rgba(0,0,0,0.1)] flex justify-center items-center bg-white text-white">
+                            <i
+                                class="fa-solid fa-question text-3xl bg-blue-600 w-10 h-10 rounded-full flex justify-center items-center"></i>
+                        </div>
+                        <div class="info text-left pl-3">
+                            <h4 class=" font-semibold mb-2 text-xl">Metabolism Boost</h4>
+                            <p>Accelerate Weight Loss with Our Supplement.</p>
+                        </div>
+                    </div>
+                    <div class="feature flex justify-start md:justify-start items-start mb-5">
+                        <div
+                            class="icon w-16 h-16 rounded-md border-[2px] border-soild border-[rgba(0,0,0,0.1)] flex justify-center items-center bg-white text-white">
+                            <i
+                                class="fa-solid fa-shoe-prints text-3xl bg-blue-600 w-10 h-10 rounded-full flex justify-center items-center"></i>
+                        </div>
+                        <div class="info text-left pl-3">
+                            <h4 class=" font-semibold mb-2 text-xl">Shed Pounds Fast</h4>
+                            <p>Supercharge Your Weight Loss Journey.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============ END FEATURES ============ -->
+
+    <!-- ============ START PRODUCTS ============ -->
+    <section id="products" class="pt-16">
+        <div class="container">
+            <div class="head text-center mb-5">
+                <h4 class="text-blue-600 text-lg font-semibold">Products</h4>
+                <h2 class="font-bold mb-4 text-3xl capitalize">Some more amazing products</h2>
+                <p class=" w-[540px] max-w-full text-lg text-gray-500 mx-auto capitalize">
+                    If you’re ready to finally lose all the weight you want then you’ll love Our produts
+                    How Can Losing Weight Really Be This Complicated?!?”
+                </p>
+            </div>
+            <div class="products flex justify-center items-center flex-wrap flex-row">
+                <div class="product w-full md:w-1/2 lg:w-1/5 mb-5">
+                    <div class="content bg-gray-200 w-60 text-center mx-auto py-5 px-2 rounded">
+                        <div class="img h-52 w-5/6 flex justify-center items-center mx-auto">
+                            <img src="./assets/images/1.png" class=" w-max object-cover" alt="">
+                        </div>
+                        <h2 class="mb-5 font-semibold text-xl">Alpilean</h2>
+                        <a href="https://alpilean.com/discover/?hop=ajay117" target="_blank"
+                            class="bg-blue-700 py-2 px-8 text-white hover:bg-transparent hover:text-blue-700 transition-all rounded-3xl border border-solid border-sky-700 font-medium">Buy
+                            Now
+                        </a>
+                    </div>
+                </div>
+                <div class="product w-full md:w-1/2 lg:w-1/5 mb-5">
+                    <div class="content bg-gray-200 w-60 text-center mx-auto py-5 px-2 rounded">
+                        <div class="img h-52 w-5/6 flex justify-center items-center mx-auto">
+                            <img src="./assets/images/2.png" class=" w-max object-cover" alt="">
+                        </div>
+                        <h2 class="mb-5 font-semibold text-xl">Pro Dentim</h2>
+                        <a href="https://prodentim.com/text.php?&hop=ajay117" target="_blank"
+                            class="bg-blue-700 py-2 px-8 text-white hover:bg-transparent hover:text-blue-700 transition-all rounded-3xl border border-solid border-sky-700 font-medium">Buy
+                            Now
+                        </a>
+                    </div>
+                </div>
+                <div class="product w-full md:w-1/2 lg:w-1/5 mb-5">
+                    <div class="content bg-gray-200 w-60 text-center mx-auto py-5 px-2 rounded">
+                        <div class="img h-52 w-5/6 flex justify-center items-center mx-auto">
+                            <img src="./assets/images/3.webp" class=" w-max object-cover" alt="">
+                        </div>
+                        <h2 class="mb-5 font-semibold text-xl">RED BOOST</h2>
+                        <a href="https://hardwoodtonic.com/?hop=ajay117" target="_blank"
+                            class="bg-blue-700 py-2 px-8 text-white hover:bg-transparent hover:text-blue-700 transition-all rounded-3xl border border-solid border-sky-700 font-medium">Buy
+                            Now
+                        </a>
+                    </div>
+                </div>
+                <div class="product w-full md:w-1/2 lg:w-1/5 mb-5">
+                    <div class="content bg-gray-200 w-60 text-center mx-auto py-5 px-2 rounded">
+                        <div class="img h-52 w-5/6 flex justify-center items-center mx-auto">
+                            <img src="./assets/images/4.png" class=" w-max object-cover" alt="">
+                        </div>
+                        <h2 class="mb-5 font-semibold text-xl">Lean Belly</h2>
+                        <a href="https://theikariajuice.com/?hop=ajay117" target="_blank"
+                            class="bg-blue-700 py-2 px-8 text-white hover:bg-transparent hover:text-blue-700 transition-all rounded-3xl border border-solid border-sky-700 font-medium">Buy
+                            Now
+                        </a>
+                    </div>
+                </div>
+                <div class="product w-full md:w-1/2 lg:w-1/5 mb-5">
+                    <div class="content bg-gray-200 w-60 text-center mx-auto py-5 px-2 rounded">
+                        <div class="img h-52 w-5/6 flex justify-center items-center mx-auto">
+                            <img src="./assets/images/5.png" class=" w-max object-cover" alt="">
+                        </div>
+                        <h2 class="mb-5 font-semibold text-xl">KETO Recipes</h2>
+                        <a href="https://ckdplan.com/free-keto-cookbooks/?hop=ajay117" target="_blank"
+                            class="bg-blue-700 py-2 px-8 text-white hover:bg-transparent hover:text-blue-700 transition-all rounded-3xl border border-solid border-sky-700 font-medium">Buy
+                            Now
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- ============ END PRODUCTS ============ -->
+
+    <!-- ============ START FOOTER ============ -->
+    <footer class=" text-center py-4 border-t font-semibold mt-10 text-sm">
+        Copyright © 2020 <a href="#" class=" text-blue-600 font-bold">ShapeUp.</a> All rights reserved.
+    </footer>
+    <!-- ============ END FOOTER ============ -->
+
+
+
+
+    <!-- ============ MAIN SCRIPT ============ -->
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
